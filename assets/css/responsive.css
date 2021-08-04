@@ -1,0 +1,535 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .navbar-menu-area ul li {
+    padding: 10px 5px;
+  }
+  .service-title::after {
+    left: 40%;
+  }
+  .project-title-area::after {
+    left: 39.5%;
+  }
+  .testimonial-title::after {
+    left: 39.7%;
+  }
+  .testimonial-title p {
+    font-size: 16px;
+  }
+  .t-item-width {
+    width: 450px;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-menu-area {
+    display: none;
+  }
+  .navbar-brand-area img {
+    width: 170px;
+  }
+  .nav-show {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 25px;
+  }
+  .mobile-menu {
+    display: none;
+    background: #fff;
+  }
+  .mobile-menu ul {
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+  }
+  .mobile-menu ul li {
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eacb7b;
+    width: 75%;
+    margin: 20px auto;
+  }
+  .mobile-menu ul li:nth-child(5) {
+    border: none;
+    margin: 0 auto;
+  }
+  .navbar-right-area {
+    margin-top: 30px;
+    left: 0;
+  }
+  .product-dec-right {
+    display: inline-flex;
+    padding: 5px;
+    min-height: 300px;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .product-dec-img-2 {
+    background-image: url(../img/banners-3.jpg);
+    width: 47%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+  }
+  .project-navbar ul li {
+    display: inline-block;
+    padding: 10px 8px;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .service-title::after {
+    left: 36%;
+  }
+  .service-logo {
+    left: 10%;
+  }
+  .service-content h4 {
+    font-size: 18px;
+  }
+  .service-content p {
+    font-size: 14px;
+  }
+  .service-1 {
+    margin: 15px 0;
+  }
+  .service-2 {
+    margin: 15px 0;
+  }
+  .service-3 {
+    margin: 15px 0;
+  }
+  .service-4 {
+    margin: 15px 0;
+  }
+  .project-item-wrap {
+    width: 100%;
+    background-color: #d1d1d1;
+    height: 200px;
+    margin: 15px 0px;
+  }
+  .testimonial-title::after {
+    width: 220px;
+    height: 100px;
+    left: 35%;
+  }
+  .t-item-width {
+    width: 350px;
+    height: 250px;
+  }
+  .t-item-wrap p {
+    padding: 40px 20px 0px 20px;
+    font-size: 14px;
+  }
+  .t-item-wrap h4 {
+    font-size: 20px;
+  }
+  .t-item-wrap h5 {
+    font-size: 18px;
+  }
+  .company-title {
+    padding: 20px 0;
+  }
+  .company-title ul li {
+    font-size: 18px;
+  }
+  .ins-photo-wrap li {
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 5px 0px;
+    float: right;
+  }
+  .company-about img {
+    width: 50px;
+  }
+  section.fotter-area p {
+    font-size: 14px !important;
+  }
+  .contect-dec {
+    font-size: 14px;
+  }
+  a.instagram-company-btn {
+    font-size: 20px;
+  }
+  a.facebook-company-btn {
+    font-size: 20px;
+  }
+  .company-about i {
+    width: 35px;
+    height: 35px;
+    margin-top: 0px;
+  }
+  .fotter-padding-area {
+    padding: 30px 0;
+  }
+  .ins-photo-wrap {
+    margin-bottom: 15px;
+  }
+  .f-font-contect p {
+    font-size: 16px !important;
+  }
+  .project-title-area::after {
+    left: 37.5%;
+    width: 180px;
+  }
+  .ins-photo-wrap ul {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .navbar-menu-area {
+    display: none;
+  }
+  .navbar-brand-area img {
+    width: 170px;
+  }
+  .nav-show {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 25px;
+  }
+  .mobile-menu {
+    display: none;
+    background: #fff;
+  }
+  .mobile-menu ul {
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+  }
+  .mobile-menu ul li {
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eacb7b;
+    width: 75%;
+    margin: 20px auto;
+  }
+  .navbar-right-area {
+    left: 0;
+  }
+  .mobile-menu ul li:nth-child(5) {
+    border: none;
+    margin: 0 auto;
+  }
+  .product-dec-right {
+    display: inline-flex;
+    padding: 5px;
+    min-height: 300px;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .product-dec-img-2 {
+    background-image: url(../img/banners-3.jpg);
+    width: 47%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+  }
+  .project-navbar ul li {
+    display: inline-block;
+    padding: 10px 12px;
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+  }
+  .project-navbar-item:hover .project-navbar-link:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #a88859;
+    position: absolute;
+    left: -10px;
+    top: 12px;
+    transition: 1.5s;
+  }
+  .service-title::after {
+    left: 32%;
+  }
+  .service-logo {
+    left: 10%;
+  }
+  .service-content h4 {
+    font-size: 20px;
+  }
+  .service-content p {
+    font-size: 15px;
+  }
+  .service-1 {
+    margin: 15px 0;
+  }
+  .service-2 {
+    margin: 15px 0;
+  }
+  .service-3 {
+    margin: 15px 0;
+  }
+  .service-4 {
+    margin: 15px 0;
+  }
+  .project-item-wrap {
+    width: 100%;
+    background-color: #d1d1d1;
+    height: 170px;
+    margin: 10px 0px;
+  }
+  .testimonial-title:after {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 100px;
+    top: 10px;
+    left: 32%;
+    background-image: radial-gradient(#d0b1b1 20%, #fff0 0),
+      radial-gradient(#fff0 20%, transparent 0);
+    background-size: 11px 11px;
+    z-index: -1;
+    opacity: 0.4;
+  }
+  .t-item-width {
+    width: 350px;
+    height: 250px;
+  }
+  .t-item-wrap p {
+    padding: 40px 20px 0px 20px;
+    font-size: 14px;
+  }
+  .t-item-wrap h4 {
+    font-size: 20px;
+  }
+  .t-item-wrap h5 {
+    font-size: 18px;
+  }
+  .company-title {
+    padding: 20px 0;
+  }
+  .company-title ul li {
+    font-size: 20px;
+  }
+  .ins-photo-wrap li {
+    width: 30%;
+    height: 80px;
+    margin: 0px 5px 5px 0px;
+    position: relative;
+    left: 5%;
+  }
+  .company-about img {
+    width: 50px;
+  }
+  section.fotter-area p {
+    font-size: 12px;
+  }
+  .contect-dec {
+    font-size: 14px;
+  }
+  a.instagram-company-btn {
+    font-size: 20px;
+  }
+  a.facebook-company-btn {
+    font-size: 20px;
+  }
+  .company-about i {
+    width: 35px;
+    height: 35px;
+    margin-top: 0px;
+  }
+  .fotter-padding-area {
+    padding: 30px 0;
+  }
+  .ins-photo-wrap {
+    margin-bottom: 15px;
+  }
+  .f-font-contect p {
+    font-size: 16px !important;
+  }
+  .project-title-area::after {
+    left: 33.5%;
+    width: 180px;
+  }
+  .ins-photo-wrap ul {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .navbar-menu-area {
+    display: none;
+  }
+  .navbar-brand-area img {
+    width: 170px;
+    margin-left: 15px;
+  }
+  .nav-show {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: -45px;
+    right: 25px;
+  }
+  .mobile-menu {
+    display: none;
+    background: #fff;
+  }
+  .mobile-menu ul {
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+  }
+  .mobile-menu ul li {
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eacb7b;
+    width: 75%;
+    margin: 20px auto;
+  }
+  .mobile-menu ul li:nth-child(5) {
+    border: none;
+    margin: 0 auto;
+  }
+  .navbar-right-area {
+    position: relative;
+    left: 0%;
+  }
+  section.banner img {
+    min-height: 220px;
+    width: 100%;
+  }
+  .product-dec-right {
+    display: inline-flex;
+    padding: 15px;
+    min-height: auto;
+    height: 250px;
+    margin-top: 25px;
+  }
+  .product-dec-img-2 {
+    padding: 15px;
+    background-image: url(../img/banners-3.jpg);
+    width: 47%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+  }
+  .product-dec-img-1 {
+    background-image: url(../img/banners-2.jpg);
+    width: 50%;
+    min-height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -40px;
+  }
+  .service-logo i {
+    font-size: 30px;
+    background: #76a966;
+    padding: 20px;
+  }
+  .project-navbar ul li {
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+  }
+  .project-navbar-item:hover .project-navbar-link:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #a88859;
+    position: absolute;
+    left: -5px;
+    top: 13px;
+    transition: 1.5s;
+  }
+  .t-item-width {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin: 0pc 15px 0px 0px;
+    padding: 10px;
+  }
+  .t-item-wrap p {
+    padding: 20px 20px 0px 20px;
+    font-size: 14px;
+  }
+  .ins-photo-wrap {
+    margin-left: 15px;
+  }
+  .service-title::after {
+    left: 32%;
+  }
+  .service-content h4 {
+    position: relative;
+    left: 29.6%;
+    font-size: 17px;
+  }
+  .service-content p {
+    position: relative;
+    left: 30%;
+    width: 70%;
+    font-size: 14px;
+  }
+  .service-logo {
+    position: absolute;
+    left: 5%;
+    top: 8px;
+  }
+  .service-logo img {
+    width: 65px;
+  }
+  .project-title-area::after {
+    width: 165px;
+    left: 35%;
+  }
+  .project-title-area::after {
+    width: 165px;
+    left: 35%;
+  }
+  .fotter-padding-area {
+    padding: 50px 10% 0px 0px;
+  }
+  .company-title {
+    padding: 50px 0px 0px 0px;
+  }
+  .f-font-contect p {
+    font-size: 12px;
+  }
+  .ins-photo-wrap li {
+    width: 32%;
+    height: 100px;
+    display: inline-block;
+    background: #fff;
+    padding: 0;
+    position: relative;
+  }
+  .ins-photo-wrap ul {
+    text-align: left;
+  }
+}
